@@ -2,6 +2,7 @@
 <html lang="pt">
     <head>
         <title>TESTE 1 | ICOLABORA</title>
+        <link rel="stylesheet" href="./CSS/SCSS/cellstyle.css">
         <link rel="stylesheet" href="./CSS/style.css" type="text/css">
     </head>
     <body>
@@ -16,8 +17,8 @@
                     <th>D3</th>
                     <th>Total</th>
                 </tr>
-                <tr v-for="elemento in vencido_tratativa" id="border-font"> <!--Linha para os registros-->
-                    <td>{{elemento.TAREFA}}</td> <!--Céluas para os registros da tabela-->
+                <tr id="border-font" v-for="elemento in vencido_tratativa"> <!--Linha para os registros-->
+                    <td class="hover hover-effect">{{elemento.TAREFA}}</td> <!--Céluas para os registros da tabela-->
                     <td class="up-effect line-color1">{{elemento.VENCIDO}}</td>
                     <td class="up-effect line-color2">{{elemento.D0}}</td>
                     <td class="up-effect line-color3">{{elemento.D1}}</td>

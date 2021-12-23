@@ -68,3 +68,12 @@ table, th, td{
     border-top: 2px solid rgb(133, 133, 133);
 
 }
+
+.up-effect:hover {
+    transform: scale(1.09);
+    transition: 0.3s;
+}
+
+.up-effect:hover {
+    transition: 0.3s;
+}

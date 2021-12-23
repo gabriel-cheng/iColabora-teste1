@@ -2,7 +2,6 @@
     display: block;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
     border-top: 1px solid #424242;
 
     &:before {
@@ -32,5 +31,65 @@
         &:before {
             width: 100%;
         }
+    }
+}
+
+.line-color1 {
+    background-color: #B2EBF2;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: 1px solid #424242;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #808080;
+    }
+}
+
+.line-color2 {
+    background-color: #F96585;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: 1px solid #424242;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #808080;
+    }
+}
+
+.line-color3 {
+    background-color: #F98585;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: 1px solid #424242;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #808080;
+    }
+}
+
+.line-color4 {
+    background-color: #F9A385;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: 1px solid #424242;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #808080;
+    }
+}
+
+.line-color5 {
+    background-color: #F9BE85;
+    text-align: center;
+    border-right: 0px;
+    border-bottom: 1px solid #424242;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #808080;
     }
 }

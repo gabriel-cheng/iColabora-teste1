@@ -1,0 +1,30 @@
+.hover {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-top: 1px solid #424242;
+}
+
+.hover:before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #3fc3a2;
+  z-index: -1;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.hover-effect:before {
+  width: 0;
+  height: 100%;
+}
+
+.hover-effect:hover:before {
+  width: 100%;
+}
+/*# sourceMappingURL=cellstyle.css.map */
